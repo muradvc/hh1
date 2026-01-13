@@ -1,0 +1,16 @@
+.hack {
+  border: 1px solid skyblue;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.hack img {
+  width: 100%;
+}
