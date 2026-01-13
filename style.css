@@ -14,3 +14,8 @@
 .hack img {
   width: 100%;
 }
+@media  screen and (max-width:423) {
+  .container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
